@@ -1,0 +1,232 @@
+.admin-stocks-page {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  background: #f6f8fb;
+  color: #0f172a;
+}
+
+.admin-stocks-main {
+  padding: 36px;
+  max-width: calc(100vw - 270px);
+  overflow-x: hidden;
+}
+
+.admin-stocks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+
+.admin-stocks-header h1 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  letter-spacing: -0.065em;
+}
+
+.admin-stocks-header p {
+  margin: 10px 0 0;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.market-btn {
+  border: none;
+  padding: 16px 22px;
+  border-radius: 16px;
+  background: #0f172a;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 16px 38px rgba(15, 23, 42, 0.16);
+}
+
+.admin-stock-message {
+  margin-bottom: 18px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-radius: 16px;
+  padding: 14px 16px;
+  font-weight: 800;
+}
+
+.stock-create-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 28px;
+  padding: 24px;
+  margin-bottom: 28px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+}
+
+.stock-create-card h2 {
+  margin: 0 0 18px;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.stock-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr auto;
+  gap: 14px;
+}
+
+.stock-form input {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 15px 16px;
+  font: inherit;
+  font-weight: 700;
+  background: #f8fafc;
+  color: #0f172a;
+  outline: none;
+}
+
+.stock-form button {
+  border: none;
+  border-radius: 16px;
+  padding: 15px 18px;
+  background: #2563eb;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.admin-stock-table-card {
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 28px;
+  overflow-x: auto;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
+}
+
+.admin-stock-table-card table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+.admin-stock-table-card th {
+  text-align: left;
+  padding: 18px 22px;
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.admin-stock-table-card td {
+  padding: 18px 22px;
+  border-top: 1px solid #f1f5f9;
+  font-weight: 800;
+}
+
+.admin-stock-table-card td strong {
+  font-size: 17px;
+}
+
+.stock-action-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stock-action-row button {
+  border: none;
+  border-radius: 13px;
+  padding: 10px 13px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.random-btn-small {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.delete-btn {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.cancel-btn {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.table-input {
+  width: 100%;
+  border: 1px solid #dbe2ea;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font: inherit;
+  font-weight: 700;
+  outline: none;
+}
+
+.empty-state {
+  padding: 44px;
+  text-align: center;
+  color: #64748b;
+  font-weight: 800;
+}
+
+@media (max-width: 1100px) {
+  .stock-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .admin-stocks-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .admin-stocks-page {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-stocks-main {
+    max-width: 100vw;
+    padding: 24px;
+  }
+
+  .stock-form {
+    grid-template-columns: 1fr;
+  }
+
+  .header-actions {
+    flex-wrap: wrap;
+  }
+}
+.history-btn {
+  border-radius: 13px;
+  padding: 10px 13px;
+  font-weight: 900;
+  background: #eff6ff;
+  color: #2563eb;
+  text-decoration: none;
+}
