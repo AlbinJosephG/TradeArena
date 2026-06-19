@@ -104,12 +104,19 @@
 <br/>
 
 ➤ Manage trading seasons
+
 ➤ Create and manage stocks
+
 ➤ Update stock prices
+
 ➤ Simulate market movements
+
 ➤ Monitor user activity
+
 ➤ View platform statistics
+
 ➤ Activate and complete seasons
+
 ➤ Manage trading competitions
 
 <br/>
