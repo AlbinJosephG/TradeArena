@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📈 TradeArena
+#  TradeArena
 
 ### Full-Stack Virtual Stock Market Simulator Powered by Spring Boot, React & MySQL
 
@@ -45,6 +45,8 @@
 
 ### 🏆 Competitive Trading Seasons
 
+<br/>
+
 ➤ Join multiple trading competitions
 
 ➤ Season-specific portfolios and wallets
@@ -70,6 +72,8 @@
 <br/>
 
 ### 📋 Leaderboards & Rankings
+
+<br/>
 
 ➤ Real-time participant rankings
 
@@ -97,20 +101,15 @@
 
 ### 🛠️ Administrative Control Center
 
+<br/>
+
 ➤ Manage trading seasons
-
 ➤ Create and manage stocks
-
 ➤ Update stock prices
-
 ➤ Simulate market movements
-
 ➤ Monitor user activity
-
 ➤ View platform statistics
-
 ➤ Activate and complete seasons
-
 ➤ Manage trading competitions
 
 <br/>
